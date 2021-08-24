@@ -16,7 +16,7 @@ const AddCategory = ({ setCategories }) => {
     }
     return (
         <form onSubmit = {handleSubmit}>
-            <input type="text" placeholder="Buscar gifs" autoFocus value = {anime} onChange = {handleAnimeChange} />
+            <input type="text" placeholder="Buscar gifs" value = {anime} onChange = {handleAnimeChange} />
         </form>
     )
 }
